@@ -1,5 +1,11 @@
-# Komputer pokładowy
-Arduino-based car trip computer
+# Car trip computer
+Small but "powerful" Arduino-based car trip computer, with OLED display.
+It counts fuel usage, remaining fuel, remaining range, average speed, distance, internal/extarnal temperature and even time for 1/4 mile drag race :)
+Everything fits into place after original clock.
+It works on "low-level" signals from injectors, speed sensor, without OBD.
+
+## Demo:
+https://www.youtube.com/watch?v=Hbh-Mv5nM38
 
 Partially based on concept & code from: https://github.com/xtensa/xarias
 
