@@ -4,10 +4,10 @@ It counts fuel usage, remaining fuel, remaining range, average speed, distance, 
 Everything fits into place after original clock.
 It works on "low-level" signals from injectors, speed sensor, without OBD.
 
+Partially based on concept & code from: https://github.com/xtensa/xarias
+
 ## Demo:
 https://www.youtube.com/watch?v=Hbh-Mv5nM38
-
-Partially based on concept & code from: https://github.com/xtensa/xarias
 
 ##  MCU:
 ATMEGA328p
