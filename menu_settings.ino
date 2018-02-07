@@ -45,6 +45,12 @@ void runSetup() {
       case SETUP_SCREEN_DOTANKOWANIE: // Dotankowanie
         lcd.print(F("dotankowanie   >"));
         break;
+        
+      case SETUP_SCREEN_VERSION:
+        lcd.print(F("wersja "));
+        lcd.print(VERSION);
+        break;
+        
     }
     key = 0;
     while (key == 0) {

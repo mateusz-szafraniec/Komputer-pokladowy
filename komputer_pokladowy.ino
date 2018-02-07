@@ -14,7 +14,7 @@
 #define COUNT_ABOVE 1 //12 - 8,64km/h; 5 - zliczanie dystansu powyżej 3,6km/h; 1 - 0,72km/h
 
 //#define WELCOME_MESSAGE "   306team.pl"  //
-#define VERSION         "            1.00"
+#define VERSION         "1.01"
 
 #define INJ_FLOW_DEFAULT 132 //wydajność wtryskiwacza ml/min
 
@@ -66,8 +66,9 @@
 #define SETUP_SCREEN_TANK_SIZE 7
 #define SETUP_SCREEN_CALIBRATE_VACCU 8
 #define SETUP_SCREEN_DOTANKOWANIE 9
+#define SETUP_SCREEN_VERSION 10
 
-#define SETUP_SCREEN_COUNT 9
+#define SETUP_SCREEN_COUNT 10
 
 #define REFRESH_RATE 1000 //odświeżanie wyświetlacza co 1 sekundę
 
@@ -96,7 +97,7 @@
 #define DOWNSHORT 2
 #define UPLONG 3
 #define DOWNLONG 4
-#define DEBOUNCE 50
+#define DEBOUNCE 30
 
 // piny
 #define PIN_INJ 4 // wtryskiwacz
